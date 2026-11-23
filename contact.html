@@ -1,0 +1,98 @@
+<!doctype html>
+<!-- This website template was created by: Aiden Greene -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact | Know Your Horror</title>
+<link rel="stylesheet" href="css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" content="This is dedicated for new horror fans who may want information about their favorite killers">
+<meta name="Keywords" content="slasher, killers, horror">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">	
+</head>
+		
+<body>
+	<div id="container">
+	
+	<!--Header area will be used for the logo or website name-->
+	<header>	
+		<img src="images/knowyourhorror.png" alt="Know Your Horror" class="logo"><br>
+	</header>
+	
+	<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+	</ul>
+	</nav>
+	
+	<!-- Use the main area to add the main content of the webpage -->
+<main>
+	     <h2 class="contact-h2">Need help? Fill out the form below</h2> 
+            
+                <form action="https://formspree.io/f/maqvqbyo" method="POST">
+                    
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="fName" id="fName" required>
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName" required>                       
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>                  
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+						
+						
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <p>Select a checkbox below</p>                   
+                        <label for="Feedback"><input type="checkbox" name="interest" id="Feedback" value="Feedback">Feedback</label>
+                        <label for="Suggest"><input type="checkbox" name="interest" id="Suggest" value="Suggestions">Suggestions</label>
+                        <label for="Killers"><input type="checkbox" name="interest" id="Killers" value="Killers">Killers</label>
+						<label for="Other"><input type="checkbox" name="interest" id="Other" value="Others">Others</label>
+                    </fieldset>
+                    
+                    <fieldset>
+                            <legend>Referral Source</legend>
+                            <label for="reference">How did you find us?</label>
+                            <select name="reference" id="reference">
+								<option value="blank">-</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="friend">Friend</option>
+                                <option value="google">Google</option>
+                                <option value="social">Social Media</option>
+                                <option value="other">Other</option>
+                            </select>
+
+                            <label for="questions">Questions?</label>
+                            <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                    </fieldset>
+                    
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                    
+                </form>
+	
+</main>
+
+	
+	<!-- Use the footer area to add webpage footer content -->
+	<footer>
+		<p>© Copyright 2026. All Rights Reserved.</p>
+		<p>Aiden.Greene@stu.bcc.cuny.edu</p>
+	</footer>
+		
+	</div>	
+	
+</body>
+</html>
